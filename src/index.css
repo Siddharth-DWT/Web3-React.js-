@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  /*font-family: monospace;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.containerWrapper{
+  margin:  25px;
+}
+
+
+.customRow button{
+  width: 250px;
+  margin: 15px;
+}
