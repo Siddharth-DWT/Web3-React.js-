@@ -151,7 +151,7 @@ function App() {
        
         <Form >
           <Form.Group className="mb-3" controlId="formBasicEmail" style={{width:'440px',marginLeft:'30%'}}>
-            <Form.Control type="amount" isValid={amount && error} placeholder="Enter amount" value={amount} onChange={(elm)=>{setAmount(elm.target.value)}}/>              
+            <Form.Control type="amount" isValid={amount && error} isInvalid={error} placeholder="Enter amount" value={amount} onChange={(elm)=>{setError(!elm.target.value);setAmount(elm.target.value)}}/>              
             <Form.Control.Feedback type="invalid">Please enter amount!</Form.Control.Feedback>
           </Form.Group>
         </Form>
